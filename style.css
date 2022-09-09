@@ -3,6 +3,11 @@
     src: url("./assets/fonts/GloriaHallelujah-Regular.ttf");
 }
 
+@font-face {
+    font-family: "roboto";
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
 .fonty {
     font-family: 'myFirstFont', sans-serif;
     font-size:4rem;
@@ -22,17 +27,18 @@ body {
     box-sizing: border-box;
 }
 .maincontainer {
-    border: 2px solid black;
+    border: 0 solid greenyellow;
     margin: 0 auto;
     width: 70vw;
     height: 100vh;
     background-color: rgba(243, 221, 210, 0.643);
-    opacity: ;
+    display: flex;  
+    overflow: hidden;
 
 }
 
 .imagecontainer {
-  
+    border: 0 solid red;
     background-image: url(./assets/images/casey-horner-75_s8iWHKLs-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,6 +47,7 @@ body {
     height: 100%;
   position: relative;
   overflow: hidden;
+  
 }
 
 .caption {
@@ -73,16 +80,103 @@ text-align: center;
 
     .topcontainer {
           
-   background-color: red;
-    width: 35%;
+  border: 0 solid red;
+    width: 65%;
     height: 100%;
-    display: inline;
+    display: flex;
+    flex-direction: column;
     }
 
 
     .coolfont {
-        font-family: 'myFirstFont', sans-serif;
+        font-family: 'roboto', sans-serif;
         font-size:1.5rem;
         color: black;
     
+    }
+
+    .surveytext {
+        border: 0 solid violet;
+        text-align: left;
+        padding: 40px;
+    }
+
+    .topcontainer1 {
+        width: 100%;
+      
+    }
+
+    .group1 {
+        border: 0 solid red;
+        width: 50%;
+        
+
+    }
+
+    .group2 {
+        border: 0 solid green;
+        width: 50%;
+        
+    }
+
+    .topcontainer2 {
+        display: flex;
+        flex-flow: row;
+        height: 50%;
+    
+    }
+    .nextbox {
+        border: 0 solid red;
+        background-color: white;
+        height: auto;
+        padding: 20px;
+        box-shadow: 8px 7px 2px 1px rgb(128, 128, 128, 0.6);
+        border-radius: 20px;
+    }
+
+    .nextbox input {
+        background-color:;
+        width: 75%;
+        margin-left: 8%;
+        
+    }
+    .nextbox label {
+        border: 0 solid pink;
+        display: block;
+        margin-left: 8%;
+    }
+    
+    input + label{
+margin-top: 30px;
+    }
+
+    label {
+        margin-bottom: 6px;
+        font-weight: bold;
+        font-size: .9em;
+       letter-spacing: .2ch;
+    }
+    
+    input {
+        height: 30px;
+        border: 2px solid grey;
+        border-radius: 12px;
+        
+    }
+
+    button {
+        width: 20%;
+        height: 5%;
+        border-radius: 20px;
+        font-weight: bold;
+        background-color: rgb(60, 104, 139, 0.3);
+        font-size: 1rem;
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+
+    .bottomtext {
+        margin-left: 4%;
+        margin-top: 4%;
+        font-size: 1.2rem;
     }
