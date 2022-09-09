@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("./assets/fonts/GloriaHallelujah-Regular.ttf");
+}
+
+p {
+    font-family: 'myFirstFont', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
