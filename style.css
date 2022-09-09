@@ -155,6 +155,7 @@ margin-top: 30px;
         font-weight: bold;
         font-size: .9em;
        letter-spacing: .2ch;
+       font-family: monospace;
     }
     
     input {
@@ -164,9 +165,9 @@ margin-top: 30px;
         
     }
 
-    button {
+    #butters {
         width: 20%;
-        height: 5%;
+        height: 15%;
         border-radius: 20px;
         font-weight: bold;
         background-color: rgb(60, 104, 139, 0.3);
@@ -179,4 +180,11 @@ margin-top: 30px;
         margin-left: 4%;
         margin-top: 4%;
         font-size: 1.2rem;
+    }
+
+    .focus:focus {
+     
+        outline:none;
+        border-color: violet;
+       box-shadow: 2px 4px 2px 1px rgba(0, 0, 255, .1);
     }
